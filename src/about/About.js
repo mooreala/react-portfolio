@@ -7,7 +7,7 @@ function About() {
     <div className="about">
       <div className="intro">
         <h1>
-          Hi! I'm Alana Moore
+          Hi! I'm <span style={{ color: "#A5A58D" }}>Alana Moore</span>
         </h1>
         <h2>
           I like to design, program, and draw.
