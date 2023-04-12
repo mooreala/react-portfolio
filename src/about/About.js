@@ -7,7 +7,7 @@ function About() {
     <div className="about">
       <div className="intro">
         <h1>
-          Hello, I am Alana Moore
+          Hi! I'm Alana Moore
         </h1>
         <h2>
           I like to design, program, and draw.
