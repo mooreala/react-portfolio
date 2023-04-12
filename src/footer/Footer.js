@@ -12,6 +12,7 @@ const Wrapper = styled.div`
   width: 100%;
   text-align: center;
   height: 70px;
+  margin-top: 50px;
   margin-bottom: 150px;
 `
 const FooterText = styled.div`

@@ -19,7 +19,7 @@ function About() {
           I am passionate about many things such as music, art, and storytelling. My aspirations include working on creative software that can help others and impact their lives.
         </p>
       </div>
-      <img src={profile} width={500} height={500} alt='Self-portrait' />
+      <img src={profile} width={300} height={300} alt='Self-portrait' />
     </div>
   );
 }
