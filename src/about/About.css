@@ -1,0 +1,26 @@
+.intro {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    max-width: 40vw;
+    margin: 100px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 200px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
