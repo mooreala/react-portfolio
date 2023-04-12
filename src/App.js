@@ -1,11 +1,13 @@
 import './App.css';
-import About from './about/About';
+import Intro from './intro/Intro';
 import Footer from './footer/Footer';
+import Navbar from './navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <About />
+      <Navbar />
+      <Intro />
       <Footer />
     </div>
   );
