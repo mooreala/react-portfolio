@@ -19,11 +19,8 @@ const MenuButton = styled.button`
   font-family: 'Cabin', sans-serif;
   font-size: 18px;
   background: none;
-  border: none;
-  outline: 1px;
+  border: 1px solid #4E3D42;
   border-radius: 2rem;
-  outline-style: solid;
-  outline-color: #4E3D42;
   padding: 15px;
   margin: 10px;
   &:hover {
