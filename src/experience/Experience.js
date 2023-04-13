@@ -78,7 +78,7 @@ const myjobs = [
 ];
 
 function Experience() {
-  const [active, setActive] = useState();
+  const [active, setActive] = useState("Intel");
 
   function renderButton() {
     const selectedJob = myjobs.filter(j => j.company === active);
