@@ -10,6 +10,12 @@ const Container = styled.div`
   justify-content: center;
 `
 
+const Title = styled.h1`
+  @media (max-width: 1199px) {
+    font-size: 30px;
+  }
+`
+
 const Jobs = styled.div`
   margin: 10px;
 `
@@ -88,7 +94,7 @@ function Experience() {
 
   return (
     <Container>
-      <h2>Internship Experience</h2>
+      <Title>Internship Experience</Title>
       <Menu>
         { myjobs.map(job => (
           <MenuButton

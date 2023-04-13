@@ -5,16 +5,15 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   width: 40vw;
-  outline: 1px;
+  border: 1px solid #4E3D42;
   border-radius: 2rem;
-  outline-style: solid;
-  outline-color: #4E3D42;
   padding: 30px;
   margin: 25px;
-  @media (max-width: 1199px) {
-    width: 85vw;
+
+  @media (max-width: 1000px) {
+    width: 80vw;
     margin: 0px;
-    outline: none;
+    border: none;
   }
 `
 const JobTitle = styled.h1`
