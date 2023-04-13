@@ -29,10 +29,15 @@ const MenuButton = styled.button`
   border-radius: 2rem;
   padding: 15px;
   margin: 10px;
+  transition: all .3s ease-in;
   &:hover {
+    border: 1px solid #BD9A7A;
     color: #BD9A7A;
     outline-color: #BD9A7A;
-    transition: all .2s ease-in;
+    @media (min-width: 1000px) {
+      font-size: 20px;
+      padding: 20px;
+    }
   }
 `
 
