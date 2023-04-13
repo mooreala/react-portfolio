@@ -29,15 +29,17 @@ const MenuButton = styled.button`
   border-radius: 2rem;
   padding: 15px;
   margin: 10px;
-  transition: all .3s ease-in;
+  transition: all .2s ease-in;
   &:hover {
     border: 1px solid #BD9A7A;
     color: #BD9A7A;
-    outline-color: #BD9A7A;
     @media (min-width: 1000px) {
-      font-size: 20px;
-      padding: 20px;
+      transform: scale(1.1, 1.1);
+      margin: 10px;
     }
+  }
+  @media (max-width: 399px) {
+    margin: 5px;
   }
 `
 
