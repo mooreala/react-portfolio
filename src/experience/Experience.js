@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import Job from './Job';
 
@@ -13,6 +13,34 @@ const Container = styled.div`
 const Jobs = styled.div`
   margin: 10px;
 `
+
+const MenuButton = styled.button`
+  color: #4E3D42;
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  background: none;
+  border: none;
+  outline: 1px;
+  border-radius: 2rem;
+  outline-style: solid;
+  outline-color: #4E3D42;
+  padding: 15px;
+  margin: 10px;
+  &:hover {
+    color: #BD9A7A;
+    outline-color: #BD9A7A;
+    transition: all .2s ease-in;
+  }
+`
+
+const Menu = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+`
+
 const myjobs = [
   {
     title: "Software Engineering Intern",
@@ -50,13 +78,31 @@ const myjobs = [
 ];
 
 function Experience() {
+  const [active, setActive] = useState();
+
+  function renderButton() {
+    const selectedJob = myjobs.filter(j => j.company === active);
+    return (
+      selectedJob.map(j => (
+        <Job title={j.title} date={j.date} company={j.company} description={j.description} />
+      ))
+    );
+  }
+
   return (
     <Container>
       <h2>Internship Experience</h2>
-      <Jobs>
+      <Menu>
         { myjobs.map(job => (
-          <Job title={job.title} date={job.date} company={job.company} description={job.description} />
+          <MenuButton
+            onClick={() => setActive( job.company )}
+          >
+            {job.company}
+          </MenuButton>
         ))}
+      </Menu>
+      <Jobs>
+        { renderButton() }
       </Jobs>
     </Container>
   );
