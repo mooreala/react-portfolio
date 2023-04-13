@@ -33,6 +33,10 @@ svg:hover {
   stroke: #BD9A7A;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* h1, h2 {
   font-family: 'Cabin', sans-serif;
   font-weight: 400;

@@ -93,9 +93,6 @@ class Navbar extends React.PureComponent {
       <Logo href="#">Alana Moore</Logo>
       <MainNav display={this.state.displayNav}>
           <NavLi>
-              <NavLink href="#about" >About</NavLink>
-          </NavLi>
-          <NavLi>
               <NavLink href="#experience" >Experience</NavLink>
           </NavLi>
           <NavLi>
@@ -106,6 +103,9 @@ class Navbar extends React.PureComponent {
           </NavLi>
           <NavLi>
               <NavLink href="#contact" >Contact</NavLink>
+          </NavLi>
+          <NavLi>
+              <NavLink href="#about" >About</NavLink>
           </NavLi>
       </MainNav>
     </Bar>
