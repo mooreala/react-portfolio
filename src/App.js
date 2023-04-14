@@ -1,22 +1,17 @@
 import './App.css';
-import Intro from './intro/Intro';
-import Footer from './footer/Footer';
-import Navbar from './navbar/Navbar';
-import Experience from './experience/Experience';
-import Art from './art/Art';
-import Projects from './projects/Projects';
-import About from './about/About';
+import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+import HomePage from './homepage/HomePage';
+import CollagePage from './art/CollagePage';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Intro />
-      <Experience />
-      <Projects />
-      <Art />
-      {/* <About /> */}
-      <Footer />
+      <Router basename={process.env.PUBLIC_URL}>
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/artwork" element={<CollagePage />} />
+          </Routes>
+      </Router>
     </div>
   );
 }
