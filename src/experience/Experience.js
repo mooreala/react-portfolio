@@ -1,20 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Job from './Job';
-
-const Container = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`
-
-const Title = styled.h1`
-  @media (max-width: 1199px) {
-    font-size: 30px;
-  }
-`
+import { Container, Title, SectionLine } from '../PageStyles';
 
 const Jobs = styled.div`
   margin: 10px;
@@ -101,7 +88,8 @@ function Experience() {
 
   return (
     <Container id="experience">
-      <Title>Internship Experience</Title>
+      <Title>INTERNSHIP EXPERIENCE</Title>
+      <SectionLine />
       <Menu>
         { myjobs.map(job => (
           <MenuButton

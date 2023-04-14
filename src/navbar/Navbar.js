@@ -90,22 +90,22 @@ class Navbar extends React.PureComponent {
       <NavBarToggle onClick={() => this.toggleNavBar()}>
         <Hamburger src={ Burger } />
       </NavBarToggle>
-      <Logo href="#">Alana Moore</Logo>
+      <Logo href="#">ALANA MOORE</Logo>
       <MainNav display={this.state.displayNav}>
           <NavLi>
-              <NavLink href="#experience" >Experience</NavLink>
+              <NavLink href="#experience" >EXPERIENCE</NavLink>
           </NavLi>
           <NavLi>
-              <NavLink href="#projects" >Projects</NavLink>
+              <NavLink href="#projects" >PROJECTS</NavLink>
           </NavLi>
           <NavLi>
-              <NavLink href="#art" >Art</NavLink>
+              <NavLink href="#art" >ART</NavLink>
           </NavLi>
+          {/* <NavLi>
+              <NavLink href="#about" >ABOUT</NavLink>
+          </NavLi> */}
           <NavLi>
-              <NavLink href="#about" >About</NavLink>
-          </NavLi>
-          <NavLi>
-              <NavLink href="#contact" >Contact</NavLink>
+              <NavLink href="#contact" >CONTACT</NavLink>
           </NavLi>
       </MainNav>
     </Bar>
