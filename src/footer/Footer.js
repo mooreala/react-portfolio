@@ -30,7 +30,7 @@ const FooterLink = styled.a`
 
 const Footer = () => {
   return (
-    <Wrapper>
+    <Wrapper id="contact">
       <FooterText>Let's connect!</FooterText>
       <FooterLink href="mailto:polkafrogg@gmail.com" target="_blank" rel="noreferrer">
           <Mail style={{ width: 40, height: 40, padding: 30, }} alt="Write Alana an email" />

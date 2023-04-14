@@ -102,10 +102,10 @@ class Navbar extends React.PureComponent {
               <NavLink href="#art" >Art</NavLink>
           </NavLi>
           <NavLi>
-              <NavLink href="#contact" >Contact</NavLink>
+              <NavLink href="#about" >About</NavLink>
           </NavLi>
           <NavLi>
-              <NavLink href="#about" >About</NavLink>
+              <NavLink href="#contact" >Contact</NavLink>
           </NavLi>
       </MainNav>
     </Bar>
