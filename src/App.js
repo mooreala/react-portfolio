@@ -6,7 +6,7 @@ import CollagePage from './art/CollagePage';
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/react-portfolio">
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/artwork" element={<CollagePage />} />

@@ -42,7 +42,7 @@ function CollagePage() {
   return (
     <div>
       <Bar>
-        <Logo href={process.env.PUBLIC_URL}>ALANA MOORE</Logo>
+        <Logo href="/react-portfolio">ALANA MOORE</Logo>
       </Bar>
         <Collage>
         <ArtCollage />

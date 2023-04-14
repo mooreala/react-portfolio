@@ -25,7 +25,7 @@ function Art() {
       <Title>ARTWORK</Title>
       <SectionLine />
       <Text>In my freetime I enjoy <span style={{color: "#A5A58D"}}>digital painting</span> in Procreate!</Text>
-      <a href={process.env.PUBLIC_URL + "/artwork"}>
+      <a href="/react-portfolio/artwork">
         <ArtSplash src={Collage} alt="A sample of Alana Moore's artwork."/>
       </a>
     </Container>
