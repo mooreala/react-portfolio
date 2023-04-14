@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.8fec6a40.css",
-    "main.js": "/react-portfolio/static/js/main.189d4b39.js",
+    "main.js": "/react-portfolio/static/js/main.a8a7274c.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/cloudy.png": "/react-portfolio/static/media/cloudy.f72c491b4cfeb587cb1f.png",
     "static/media/shoppingwitch.png": "/react-portfolio/static/media/shoppingwitch.a6afcfab832721046b0b.png",
     "static/media/twees.png": "/react-portfolio/static/media/twees.972c1552d20730172cf1.png",
@@ -21,10 +22,11 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/hamburger-svg.svg": "/react-portfolio/static/media/hamburger-svg.16f5b1b8c0d3ae7c6f7684b9b4759063.svg",
     "main.8fec6a40.css.map": "/react-portfolio/static/css/main.8fec6a40.css.map",
-    "main.189d4b39.js.map": "/react-portfolio/static/js/main.189d4b39.js.map"
+    "main.a8a7274c.js.map": "/react-portfolio/static/js/main.a8a7274c.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8fec6a40.css",
-    "static/js/main.189d4b39.js"
+    "static/js/main.a8a7274c.js"
   ]
 }
