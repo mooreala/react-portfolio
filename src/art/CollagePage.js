@@ -10,7 +10,9 @@ const Collage = styled.div`
 const Bar = styled.nav`
   font-size: 18px;
   padding-bottom: 10px;
-  margin-top: 17px;
+  @media (min-width: 786px) {
+    margin-top: 17px;
+  }
 `
 
 const NavLink = styled.a`
@@ -46,8 +48,8 @@ function CollagePage() {
       </Bar>
         <Collage>
         <ArtCollage />
-        <Footer />
       </Collage>
+      <Footer />
     </div>
   );
 }
