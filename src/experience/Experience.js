@@ -58,7 +58,7 @@ const myjobs = [
       "Worked on simulation version control and made contributions to the existing repository",
       "Worked on and created unit tests",
       "Contributed to software architecture and early development of new software modules",
-      "Translated domain business knowledge from my barista experience to the simulation software.",
+      "Translated domain business knowledge from my barista experience to the simulation software",
     ],
   },
   {
