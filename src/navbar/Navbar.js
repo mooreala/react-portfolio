@@ -49,7 +49,7 @@ const NavLink = styled.a`
 `
 const Logo  = styled(NavLink)`
   display: inline-block;
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 10px;
   margin-left: 20px;
 `
