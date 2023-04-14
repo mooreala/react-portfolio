@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Job from './Job';
-import { Container, Title, SectionLine } from '../PageStyles';
+import { Container, Title, SectionLine } from '../SectionStyles';
 
 const Jobs = styled.div`
   margin: 10px;

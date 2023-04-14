@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Container, Title, SectionLine } from '../PageStyles';
+import { Container, Title, SectionLine } from '../SectionStyles';
 import Collage from "../img/artsplash.png";
 
 const ArtSplash = styled.img`
