@@ -25,10 +25,6 @@ const Container = styled.div`
 `
 
 const IntroText = styled.div`
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  text-align: left;
   margin: 100px;
   margin-top: 0px;
   max-width: 30vw;

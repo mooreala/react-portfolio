@@ -23,7 +23,7 @@ const MenuButton = styled.button`
   border-radius: 2rem;
   padding: 15px;
   margin: 10px;
-  transition: all .2s ease-in;
+  transition: all .3s ease-in;
   &:hover {
     border: 1px solid #BD9A7A;
     background-color: #BD9A7A;
@@ -35,11 +35,7 @@ const MenuButton = styled.button`
 `
 
 const Menu = styled.div`
-  display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
 `
 
 const myjobs = [
