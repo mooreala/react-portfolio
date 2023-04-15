@@ -46,7 +46,7 @@ function CollagePage() {
     <div>
       <ScrollButton />
       <Bar>
-        <Logo href="/react-portfolio">ALANA MOORE</Logo>
+        <Logo href="/">ALANA MOORE</Logo>
       </Bar>
         <Collage>
         <ArtCollage />
