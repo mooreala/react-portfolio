@@ -67,6 +67,7 @@ function Intro() {
         </p>
         <p>
           I am passionate about many things such as music, art, and storytelling. My aspirations include working on creative software that can help others and impact their lives.
+          In my free-time I'll either be reading fantasy novels, digital painting, or gaming! I am currently on my second Breath of the Wild playthrough.
         </p>
       </IntroText>
       <Portrait src={profile} alt='Self-portrait' /> 
