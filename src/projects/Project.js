@@ -76,6 +76,10 @@ const Preview = styled.img`
   }
 `
 
+const ImgLink = styled.a`
+  display:block;
+`
+
 const ProjLink = styled.a`
   &:link,
   &:visited {
@@ -107,9 +111,11 @@ function Project({src, title, subtitle, desc, stack, gitlink, extlink}) {
 
   return (
     <Container>
-      <a href={extlink} target="_blank" rel="noreferrer">
-        <Preview src={src} />
-      </a>
+      <div style={{textAlign: "center"}}>
+        <ImgLink href={extlink} target="_blank" rel="noreferrer">
+          <Preview src={src} />
+        </ImgLink>
+      </div>
       <Card>
         <ProjSection>
           <Title>{title}</Title>
