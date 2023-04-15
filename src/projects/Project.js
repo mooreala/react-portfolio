@@ -66,9 +66,13 @@ const Preview = styled.img`
   margin: 15px;
   margin-top: 10px;
   padding: 0px;
+  transition: all .5s ease-in-out;
   @media (max-width: 1087px) {
     max-width: 500px;
     width: 85%
+  }
+  &:hover {
+    opacity: 60%;
   }
 `
 
@@ -103,7 +107,9 @@ function Project({src, title, subtitle, desc, stack, gitlink, extlink}) {
 
   return (
     <Container>
-      <Preview src={src} />
+      <a href={extlink} target="_blank" rel="noreferrer">
+        <Preview src={src} />
+      </a>
       <Card>
         <ProjSection>
           <Title>{title}</Title>

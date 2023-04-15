@@ -11,10 +11,6 @@ https://coolors.co/c0caad-9da9a0-654c4f-b26e63-cec075
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap');
 
-/* .App {
-  text-align: center;
-} */
-
 body {
   color: #4E3D42;
   margin: 0;
@@ -36,9 +32,3 @@ svg:hover {
 html {
   scroll-behavior: smooth;
 }
-
-/* h1, h2 {
-  font-family: 'Cabin', sans-serif;
-  font-weight: 400;
-  margin: 0;
-} */
