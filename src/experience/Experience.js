@@ -5,6 +5,13 @@ import { Container, Title, SectionLine } from '../SectionStyles';
 
 const Jobs = styled.div`
   margin: 10px;
+  height: 400px;
+  @media (max-width: 1424px) {
+    height: 500px;
+  }
+  @media (max-width: 354px) {
+    height: 700px;
+  }
 `
 
 const MenuButton = styled.button`
@@ -19,11 +26,8 @@ const MenuButton = styled.button`
   transition: all .2s ease-in;
   &:hover {
     border: 1px solid #BD9A7A;
-    color: #BD9A7A;
-    @media (min-width: 1000px) {
-      transform: scale(1.1, 1.1);
-      margin: 10px;
-    }
+    background-color: #BD9A7A;
+    color: white;
   }
   @media (max-width: 399px) {
     margin: 5px;
