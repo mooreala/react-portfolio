@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ArtCollage from './ArtCollage';
 import Footer from '../footer/Footer';
+import ScrollButton from '../navbar/ScrollButton';
 
 const Collage = styled.div`
   margin: 50px 20vw;
@@ -43,6 +44,7 @@ const Logo  = styled(NavLink)`
 function CollagePage() {
   return (
     <div>
+      <ScrollButton />
       <Bar>
         <Logo href="/react-portfolio">ALANA MOORE</Logo>
       </Bar>
