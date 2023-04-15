@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.8fec6a40.css",
-    "main.js": "/react-portfolio/static/js/main.a8a7274c.js",
+    "main.js": "/react-portfolio/static/js/main.2ceb0e62.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/cloudy.png": "/react-portfolio/static/media/cloudy.f72c491b4cfeb587cb1f.png",
     "static/media/shoppingwitch.png": "/react-portfolio/static/media/shoppingwitch.a6afcfab832721046b0b.png",
@@ -12,21 +12,27 @@
     "static/media/field.jpg": "/react-portfolio/static/media/field.9d2b8c12a03237506741.jpg",
     "static/media/fishing.jpg": "/react-portfolio/static/media/fishing.a7fbd72b960a01856bab.jpg",
     "static/media/plantgirl.jpeg": "/react-portfolio/static/media/plantgirl.da26e508dad9ae0473df.jpeg",
+    "static/media/calmingcrows.png": "/react-portfolio/static/media/calmingcrows.60d230114250cf292a79.png",
+    "static/media/dad.png": "/react-portfolio/static/media/dad.8aa3a260d8d7ad16373a.png",
+    "static/media/kittykatch.png": "/react-portfolio/static/media/kittykatch.f2a7d1fd058ed325ba50.png",
     "static/media/sadbear.png": "/react-portfolio/static/media/sadbear.f093fea5c745cbd3bf2d.png",
     "static/media/happyme.jpg": "/react-portfolio/static/media/happyme.c7af35ee4bb84bb43160.jpg",
+    "static/media/healthpotion.png": "/react-portfolio/static/media/healthpotion.cb5a9cc20f36c28e076e.png",
     "static/media/peanutbanana.jpg": "/react-portfolio/static/media/peanutbanana.3a8950b4eab506f6cb7b.jpg",
     "static/media/fruitsando.jpg": "/react-portfolio/static/media/fruitsando.f34dbf313ffd29e889a0.jpg",
     "static/media/github-svg.svg": "/react-portfolio/static/media/github-svg.94e2a289acb8b3fc74d411d32ecb9336.svg",
+    "static/media/arrow-svg.svg": "/react-portfolio/static/media/arrow-svg.5a18b672a73987f35ae1e00726e28005.svg",
     "static/media/linkedin-svg.svg": "/react-portfolio/static/media/linkedin-svg.bad83b601d3bd25ea68a8a1fb61aa1bc.svg",
     "static/media/mail-svg.svg": "/react-portfolio/static/media/mail-svg.0b865eec46be6399bda8c78d4a4ea060.svg",
+    "static/media/external-link-svg.svg": "/react-portfolio/static/media/external-link-svg.354d0667ca1cee0322b8717e008918be.svg",
     "index.html": "/react-portfolio/index.html",
     "static/media/hamburger-svg.svg": "/react-portfolio/static/media/hamburger-svg.16f5b1b8c0d3ae7c6f7684b9b4759063.svg",
     "main.8fec6a40.css.map": "/react-portfolio/static/css/main.8fec6a40.css.map",
-    "main.a8a7274c.js.map": "/react-portfolio/static/js/main.a8a7274c.js.map",
+    "main.2ceb0e62.js.map": "/react-portfolio/static/js/main.2ceb0e62.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8fec6a40.css",
-    "static/js/main.a8a7274c.js"
+    "static/js/main.2ceb0e62.js"
   ]
 }
