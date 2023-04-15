@@ -14,6 +14,7 @@ const Container = styled.div`
     width: 80vw;
     margin: 0px;
     border: none;
+    text-align: center;
   }
 `
 const JobTitle = styled.h1`
