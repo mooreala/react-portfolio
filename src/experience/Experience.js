@@ -55,8 +55,8 @@ const myjobs = [
     company: "Starbucks DevOps",
     description: [
       "Collaborated on a digital store simulation that functionally represents a Starbucks store",
-      "Worked on simulation version control and made contributions to the existing repository",
-      "Worked on and created unit tests",
+      "Strengthened simulation version control and made contributions to the existing repository",
+      "Implemented unit tests",
       "Contributed to software architecture and early development of new software modules",
       "Translated domain business knowledge from my barista experience to the simulation software",
     ],
@@ -66,10 +66,10 @@ const myjobs = [
     date: "May 2021 - Aug 2021",
     company: "Apple",
     description: [
-      "Worked on apple-made plugins for Unity to support game controller usage and iOS play store achievements",
+      "Implemented apple-made plugins in Unity to support game controller usage and iOS play store achievements",
       "Contributed to deploying apple plugins to the unity game development engine",
       "Learned and wrote code using unity-flavored scripts in C#",
-      "Debugged and wrote radar reports for back-end code",
+      "Debugged and wrote radar reports for back-end service source code",
     ],
   },
 ];
