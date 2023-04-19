@@ -63,7 +63,7 @@ function Intro() {
           I like to design, program, and draw.
         </IntroSubtitle>
         <p>
-          I am a senior software engineering student at ASU, located in the Pacific Northwest. I am interested in front-end development, human computer interaction, and AI. 
+          I am a remote senior software engineering student at ASU, located in the Pacific Northwest. I am interested in front-end development, human computer interaction, and AI. 
         </p>
         <p>
           I am passionate about many things such as music, art, and storytelling. My aspirations include working on creative software that can help others and impact their lives.
