@@ -32,7 +32,7 @@ const Footer = () => {
   return (
     <Wrapper id="contact">
       <FooterText>Let's connect!</FooterText>
-      <FooterLink href="mailto:polkafrogg@gmail.com" target="_blank" rel="noreferrer">
+      <FooterLink href="mailto:alana@moorelogic.com" target="_blank" rel="noreferrer">
           <Mail style={{ width: 40, height: 40, padding: 30, }} alt="Write Alana an email" />
       </FooterLink>
       <FooterLink href="https://github.com/mooreala" target="_blank" rel="noreferrer" >
