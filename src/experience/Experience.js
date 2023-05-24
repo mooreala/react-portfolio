@@ -40,11 +40,12 @@ const Menu = styled.div`
 
 const myjobs = [
   {
-    title: "Software Engineering Intern",
+    title: "Undergraduate Technical Intern",
     date: "Apr 2022 - Present",
     company: "Intel",
     description: [
       "Automating cloud solutions for system configuration updates",
+      "Designing and developing a front-end application for hardware test suites from REST service",
       "Contributing to REST API development",
       "Promoting team inclusivity by facilitating weekly newsletters and surveys",
     ],
@@ -62,7 +63,7 @@ const myjobs = [
     ],
   },
   {
-    title: "Software Engineering Intern",
+    title: "Game Technology Intern",
     date: "May 2021 - Aug 2021",
     company: "Apple",
     description: [

@@ -63,7 +63,7 @@ function Intro() {
           I like to design, program, and draw.
         </IntroSubtitle>
         <p>
-          I am a remote senior software engineering student at ASU, located in the Pacific Northwest. I am interested in front-end development, human computer interaction, and AI. 
+          I am a recent Software Engineering graduate from ASU, interested in front-end development, human computer interaction, and AI. I have been working at Intel as a Technical Intern with a focus on automating cloud services and creating user-interfaces for REST APIs for just over a year. 
         </p>
         <p>
           I am passionate about many things such as music, art, and storytelling. My aspirations include working on creative software that can help others and impact their lives.
