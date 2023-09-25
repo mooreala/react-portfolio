@@ -29,13 +29,20 @@ const MenuButton = styled.button`
     background-color: #BD9A7A;
     color: white;
   }
-  @media (max-width: 399px) {
+  @media (max-width: 550px) {
     margin: 5px;
   }
 `
 
 const Menu = styled.div`
   flex-direction: row;
+  @media (max-width: 550px) {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 `
 
 const myjobs = [
