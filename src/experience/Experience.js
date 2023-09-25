@@ -40,9 +40,17 @@ const Menu = styled.div`
 
 const myjobs = [
   {
-    title: "Undergraduate Technical Intern",
-    date: "Apr 2022 - Present",
+    title: "Software Application Development Engineer",
+    date: "Sep 2023 - Present",
     company: "Intel",
+    description: [
+      "Design and development of enterprise facing web-applications",
+    ],
+  },
+  {
+    title: "Undergraduate Technical Intern",
+    date: "Apr 2022 - Sep 2023",
+    company: "Intel (Internship)",
     description: [
       "Automating cloud solutions for system configuration updates",
       "Designing and developing a front-end application for hardware test suites from REST service",

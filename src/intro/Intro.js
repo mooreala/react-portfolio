@@ -63,7 +63,7 @@ function Intro() {
           I like to design, program, and draw.
         </IntroSubtitle>
         <p>
-          I am a recent Software Engineering graduate from ASU, interested in front-end development, human computer interaction, and AI. I have been working at Intel as a Technical Intern with a focus on automating cloud services and creating user-interfaces for REST APIs for just over a year. 
+          I am a recent Software Engineering graduate from ASU, and am interested in front-end development, human computer interaction, and AI. I just started a new role at Intel as a Software Application Development Engineer, where I was previously an intern! In my junior position I currently work on enterprise facing web-applications with regards to user experience design and back-end service development. 
         </p>
         <p>
           I am passionate about many things such as music, art, and storytelling. My aspirations include working on creative software that can help others and impact their lives.
