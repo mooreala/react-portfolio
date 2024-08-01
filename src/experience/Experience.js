@@ -51,7 +51,10 @@ const myjobs = [
     date: "Sep 2023 - Present",
     company: "Intel",
     description: [
-      "Design and development of enterprise facing web-applications",
+      "Design and develop enterprise-level web applications, enhancing functionality and user experience for large-scale business solutions",
+      "Create high-fidelity prototypes to drive business value and support decision-making processes for stakeholders",
+      "Focus on accessibility and usability in UI design and implementation, ensuring compliance with best practices and enhancing overall user experience",
+      "Provide comprehensive support for back-end customer tickets",
     ],
   },
   {
@@ -59,10 +62,10 @@ const myjobs = [
     date: "Apr 2022 - Sep 2023",
     company: "Intel (Internship)",
     description: [
-      "Automating cloud solutions for system configuration updates",
-      "Designing and developing a front-end application for hardware test suites from REST service",
-      "Contributing to REST API development",
-      "Promoting team inclusivity by facilitating weekly newsletters and surveys",
+      "Automated cloud solutions for system configuration updates",
+      "Designed and developed a front-end application for hardware test suites from REST service",
+      "Contributed to REST API development",
+      "Promoted team inclusivity by facilitating weekly newsletters and surveys",
     ],
   },
   {
