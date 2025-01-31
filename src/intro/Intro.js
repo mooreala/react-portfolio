@@ -63,7 +63,7 @@ function Intro() {
           I like to design, program, and draw.
         </IntroSubtitle>
         <p>
-          I am a software developer slash design fanatic, with an interest in front-end development, human computer interaction, and AI. I am currently working as a Software Application Development Engineer at Intel, and I work on enterprise facing web-applications with regards to user experience design and back-end service development!
+          I am a software developer slash design fanatic, with an interest in front-end development, human computer interaction, and AI. I am currently working as a Cloud Application Development Engineer at Intel, and I work on enterprise facing web-applications with regards to user experience design and back-end service development!
         </p>
         <p>
           I am passionate about many things such as music, art, and storytelling. My aspirations include working on creative software that can help others and impact their lives.
