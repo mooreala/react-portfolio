@@ -47,14 +47,14 @@ const Menu = styled.div`
 
 const myjobs = [
   {
-    title: "Software Application Development Engineer",
+    title: "Cloud Application Development Engineer",
     date: "Sep 2023 - Present",
     company: "Intel",
     description: [
-      "Design and develop enterprise-level web applications, enhancing functionality and user experience for large-scale business solutions",
-      "Create high-fidelity prototypes to drive business value and support decision-making processes for stakeholders",
-      "Focus on accessibility and usability in UI design and implementation, ensuring compliance with best practices and enhancing overall user experience",
-      "Provide comprehensive support for back-end customer tickets",
+      "Main responsibility: Design and develop enterprise-level web applications, enhancing functionality and user experience for large-scale business solutions",
+      "Implemented a comprehensive data lifecycle feature for an enterprise web application serving approximately 20,000 users, enhancing the quality of training records and enabling efficient management and approval of new entries.",
+      "Developed high-fidelity prototypes using Figma and assisted team members with their mockups, facilitating informed stakeholder decision-making and accelerating project turnaround times.",
+      "Ensured accessibility and usability in UI design and implementation, meeting compliance with best practices and leading to a significant reduction in user-reported issues.",
     ],
   },
   {
@@ -107,7 +107,7 @@ function Experience() {
 
   return (
     <Container id="experience">
-      <Title>INTERNSHIP EXPERIENCE</Title>
+      <Title>WORK EXPERIENCE</Title>
       <SectionLine />
       <Menu>
         { myjobs.map(job => (
