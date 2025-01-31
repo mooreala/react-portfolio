@@ -51,10 +51,9 @@ const myjobs = [
     date: "Sep 2023 - Present",
     company: "Intel",
     description: [
-      "Main responsibility: Design and develop enterprise-level web applications, enhancing functionality and user experience for large-scale business solutions",
-      "Implemented a comprehensive data lifecycle feature for an enterprise web application serving approximately 20,000 users, enhancing the quality of training records and enabling efficient management and approval of new entries.",
-      "Developed high-fidelity prototypes using Figma and assisted team members with their mockups, facilitating informed stakeholder decision-making and accelerating project turnaround times.",
-      "Ensured accessibility and usability in UI design and implementation, meeting compliance with best practices and leading to a significant reduction in user-reported issues.",
+      "Implemented a data lifecycle feature for an enterprise web application serving approximately 20,000 users, enhancing the management and quality of training records.",
+      "Led the introduction of a stakeholder-focused development process and redesigned a learning database interface with Figma and React.js, significantly improving data accessibility and user satisfaction.",
+      "Ensured accessibility and usability in UI design and implementation, leading to a significant reduction in user-reported issues.",
     ],
   },
   {
